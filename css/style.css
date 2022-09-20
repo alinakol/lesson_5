@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* штифт Larsseit */
+@font-face {
+	font-family:"Larsseit";
+	src: url("../fonts/larsseit/Larsseit-Regular.woff2") format("woff2"),url("../fonts/larsseit/Larsseit-Regular.woff") format("woff");
+	font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+	font-family:"Larsseit";
+	src: url("../fonts/larsseit/Larsseit-Medium.woff2") format("woff2"),url("../fonts/larsseit/Larsseit-Mediumi.woff") format("woff");
+	font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+	font-family:"Larsseit";
+	src: url("../fonts/larsseit/Larsseit-MediumItalic.woff2") format("woff2"),url("../fonts/larsseit/Larsseit-MediumItalic.woff") format("woff");
+	font-display: swap;
+   font-weight: 500;
+   font-style: italic;
+}
+
+@font-face {
+	font-family:"Larsseit";
+	src: url("../fonts/larsseit/Larsseit-Bold.woff2") format("woff2"),url("../fonts/larsseit/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+
+/* штифт Lato */
+@font-face {
+	font-family:"Lato";
+	src: url(../fonts/lato/Lato-Regular.woff2) format("woff2"), url(../fonts/lato/Lato-Regular.woff) format("woff");
+	font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+	font-family:"Lato";
+	src: url(../fonts/lato/Lato-Bold.woff2) format("woff2"), url(../fonts/lato/Lato-Bold.woff) format("woff");
+	font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+	font-family:"Lato";
+	src: url(../fonts/lato/Lato-Black.woff2) format("woff2"), url(../fonts/lato/Lato-Black.woff) format("woff");
+	font-display: swap;
+   font-weight: 900;
+   font-style: normal;
+}
+
+body{
+	font-family:"Larsseit";
+	font-weight: 400;
+}
+header {
+margin-bottom: 20px;
+}
+
+p{
+	font-style: italic;
+	font-size: 18px;
+	padding: 0 10px;
+	margin-bottom: 10px;
+	color: #1a5b53;
+}
+
+h2{
+	text-align: center;
+	color: #0c4d4e;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.img img {
+	width: 30%;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.text{
+	padding-bottom: 15px;
+}
+.btn{
+	font-family: "Lato";
+	background-color: #0a7474;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+margin-left: 10px;
+	padding: 10px;
+}
+
+h1  {
+	text-align: center;
+	color: #474545;
+	text-shadow: 33px 10px 5px #68dedc;
+	font-size: 30px;
+	font-weight: 700;
+	padding: 10px;
+}
+.top img{
+	display: inline;
+}
+.list__top{
+	font-family: "Lato";
+	color: #0a7474;
+	font-size: 15px;
+	padding: 15px;
+}
+.list__top li{
+	padding: 3px;
+	text-transform: uppercase;
+}
+.top p{
+	font-family: "Lato";
+   font-weight: 900;
+	text-indent: 20px;
+	margin-bottom: 10px;
+}
+.place ,.surfing ,.educaitio ,.accommodatio ,.map{
+	margin-bottom: 20px;
+}
+
+.educaitio img ,.accommodatio img{
+	padding-bottom: 10px;
+}
+.price{
+font-style: normal;
+font-weight: 900;
+text-align: center;
+text-transform: uppercase;
+margin: 15px 0;
+}
+.lest{
+	word-spacing: 20px;
+	margin-bottom: 15px;
+}
+.lest > li{
+	font-size: 18px;
+	font-weight: 900;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	
+}
+.accommodatio p{
+	margin-bottom: 20px;
+}
+h3{
+	text-align: center;
+   color: #0c4d4e;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.evro {
+	font-size: 25px;
+	color: #000;
+	text-transform: uppercase;
+}
+.options__list p{
+font-style: normal;
+color: #000;
+text-transform: uppercase;
+text-decoration: underline;
+}
+.options__list-list{
+	padding: 0 10px;
+	margin-bottom: 10px;
+}
+.options__list-list li{
+	font-size: 20px;
+	padding: 3px;
+}
+.options__list .options{
+	font-family: "Lato";
+	font-weight: 900;
+	text-decoration: none;
+}
+.options span{
+	text-decoration: line-through;
+	color: #b40d0d;
+}
+.map a{
+	color: #b40d0d;
+	text-decoration: overline;
+}
+
+footer {
+	background-color: #0c4d4e ;
+}
+
+.footer-block p{
+	color: #ffff;
+	font-style: normal;
+	text-transform: uppercase;
+	padding-top: 15px;
+	margin: 0;
+}
+.footer-block p:last-child{
+	padding-bottom: 10px;
+}
+.number p{
+	text-transform: none;
+	font-style: italic;
+	color: #9e9a9a;
+}
